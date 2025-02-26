@@ -1,33 +1,35 @@
 import React from "react";
 import "./introduce.css";
+import { useContext } from "react";
+import { ContextLanguage } from "../context/LanguageContexts";
 
 const Introduce = () => {
+
+    const {dilDegistir,content}=useContext(ContextLanguage);
+
   return (
     <div className="introduce">
       <div className="introduce-section">
         <div className="introduce-name">
           <span className="introduce-line"></span>
-          <span className="introduce-text">Almila Su</span>
+          <span className="introduce-text">{content.Name}</span>
         </div>
         <h1 className="introduce-title">
-          Creative thinker <br />
-          Minimalism lover
+          {content.Job}
         </h1>
         <p className="introduce-description">
-          Hi, I'm Almila. I'm a full-stack developer. If you are looking for a
-          Developer who to craft solid and scalable frontend products with great
-          user experiences. Let’s shake hands with me.
+        {content.Description}
         </p>
 
         <div className="introduce-links">
-          <a className="introduce-btn introduce-btn-primary" href="#">Hire me</a>
+          <a className="introduce-btn introduce-btn-primary" href="#">{content.HireMe}</a>
           <a className="introduce-btn" href="#">Github</a>
           <a className="introduce-btn" href="#">Linkedin</a>
         </div>
       </div>
       <div className="introduce-image">
         <img
-          src="https://media.istockphoto.com/id/525982128/photo/the-cat-aggression.jpg?s=612x612&w=0&k=20&c=nvehkiqTZ4JJIqHLYJ2x5RxrySX_gYc-WKB9K8kbcY0="
+          src="https://media.licdn.com/dms/image/v2/C4D03AQEvJwEmDBAjEw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1611612038461?e=2147483647&v=beta&t=1qORkHyDj1a6a12DvEYW-oxBvHiuLUaNa01W_06nxWE"
           alt="Profile"
         />
       </div>

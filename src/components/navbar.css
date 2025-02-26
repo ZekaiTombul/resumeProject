@@ -34,7 +34,7 @@
 
 .navbar-link-item {
     text-decoration: none;
-    color: #474646;
+    color: #3730A3;
     font-weight: 500;
     padding: 8px 16px;
     border: 1px solid transparent;
@@ -46,4 +46,9 @@
     border: 1px solid #3730A3;
     color: #3730A3;
     background: #f3f3ff;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 0.5rem;
 }

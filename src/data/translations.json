@@ -1,0 +1,33 @@
+{
+    "en":{
+       "Skills":"Skills" ,
+       "Projects":"Projects",
+       "HireMe":"Hire me",
+       "Name":"Zekai Tombul",
+       "Job":"Fullstack Web Developer",
+       "Description":"Hi, I'm Zekai. I'm a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+       "Profile":"Profile",
+       "DateOfBirth":"Date Of Birth:",
+       "Education":"Education:",
+       "City":"City of Residence:",
+       "License":"License:",
+       "Role":"Preferred Role:",
+       "About":"About Me"
+    },
+
+    "tr":{
+        "Skills":"Yetenekler" ,
+        "Projects":"Projeler",
+        "HireMe":"Birlikte Çalışalım",
+        "Name":"Zekai Tombul",
+        "Job":"Fullstack Web Geliştiricisi",
+        "Description":"Merhaba, ben Zekai. Ben bir full-stack geliştiriciyim. Eğer sağlam ve ölçeklenebilir frontend ürünleri oluşturabilecek, harika kullanıcı deneyimleri sunan bir geliştirici arıyorsanız, hadi el sıkışalım!",
+        "Profile":"Profil",
+        "DateOfBirth":"Doğum Tarihi:",
+        "Education":"Eğitim Durumu:",
+        "City":"İkamet Şehri:",
+        "License":"Lisans:",
+        "Role":"Tercih Ettiği Rol:",
+        "About":"Hakkımda"
+     }
+}
